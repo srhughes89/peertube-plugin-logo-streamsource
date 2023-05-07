@@ -1,0 +1,29 @@
+{
+  "name": "peertube-plugin-logo-streamsource",
+  "version": "0.0.1",
+  "description": "Streamsource logo on PeerTube.",
+  "engine": {
+    "peertube": ">=1.3.0"
+  },
+  "keywords": [
+    "peertube",
+    "plugin"
+  ],
+  "homepage": "https://github.com/srhughes89/peertube-plugin-logo-streamsource",
+  "author": "srhughes89",
+  "bugs": "https://github.com/srhughes89/peertube-plugin-logo-streamsource/issues",
+  "library": "./main.js",
+  "staticDirs": {
+    "images": "public/images"
+  },
+  "css": [
+    "assets/logo.css"
+  ],
+  "clientScripts": [
+    {
+      "script": "client/common-client-plugin.js",
+      "scopes": [ "common" ]
+    }
+  ],
+  "translations": {}
+}
